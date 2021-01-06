@@ -127,7 +127,7 @@ def findAvarege(matrix):
 
 
 def importDataFromExcel():
-    df = np.genfromtxt('cancer_data.csv', delimiter=',')
+    df = np.genfromtxt('cancer_data_for_base_alg.csv', delimiter=',')
 
     # get the Xs matrix
     matrix = df[:, :len(df[0]) - 1]
